@@ -18,7 +18,12 @@ export default function Experience() {
             <div className="xp-item">
               <div className="xp-period">{t(xp.period)}</div>
               <div className="xp-body">
-                <h3>{t(xp.role)}</h3>
+                <h3>
+                  {t(xp.role)}
+                  {xp.upcoming && (
+                    <span className="xp-upcoming">{t({ fr: 'À venir', en: 'Upcoming' })}</span>
+                  )}
+                </h3>
                 <span className="xp-company">
                   {xp.company} — {xp.place}
                 </span>

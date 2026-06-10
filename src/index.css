@@ -473,6 +473,19 @@ section {
   margin-bottom: 4px;
 }
 
+.xp-upcoming {
+  font-family: var(--font-mono);
+  font-size: 12px;
+  font-weight: 400;
+  padding: 4px 12px;
+  border-radius: 99px;
+  border: 1px solid var(--accent-2);
+  color: var(--accent-2);
+  margin-left: 14px;
+  vertical-align: middle;
+  white-space: nowrap;
+}
+
 .xp-body .xp-company {
   color: var(--accent);
   font-size: 15px;

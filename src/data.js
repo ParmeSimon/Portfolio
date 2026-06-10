@@ -98,11 +98,15 @@ export const otherProjects = [
 
 export const experiences = [
   {
-    role: { fr: 'Concepteur et Développeur d’Applications', en: 'Application Designer & Developer' },
+    role: {
+      fr: 'Expert en Architecture et Développement Logiciel',
+      en: 'Expert in Software Architecture & Development',
+    },
     company: 'Renault Group',
     logo: renaultLogo,
     place: 'Le Mans',
     period: { fr: 'Sept. 2026 — Sept. 2028', en: 'Sept. 2026 — Sept. 2028' },
+    upcoming: true,
     points: {
       fr: [
         'Poursuite en alternance dans le cadre du Bac+5 Expert en Architecture et Développement Logiciel (EKOD)',
