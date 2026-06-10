@@ -16,8 +16,8 @@ export default function Contact() {
         <Reveal delay={0.1}>
           <p>
             {t({
-              fr: 'En recherche d’un Master développeur web en alternance. Une opportunité, une question, un projet ? Écrivez-moi.',
-              en: 'Looking for a Master’s apprenticeship in web development. An opportunity, a question, a project? Drop me a line.',
+              fr: 'Une opportunité, une question, un projet ? Écrivez-moi.',
+              en: 'An opportunity, a question, a project? Drop me a line.',
             })}
           </p>
         </Reveal>
@@ -31,8 +31,8 @@ export default function Contact() {
           <a className="btn btn-ghost" href={profile.linkedin} target="_blank" rel="noreferrer">
             LinkedIn ↗
           </a>
-          <a className="btn btn-ghost" href={`tel:${profile.phone.replace(/\s/g, '')}`}>
-            {profile.phone}
+          <a className="btn btn-ghost" href={profile.cv} target="_blank" rel="noreferrer">
+            {t({ fr: 'Voir mon CV ↗', en: 'View my CV ↗' })}
           </a>
         </Reveal>
       </div>

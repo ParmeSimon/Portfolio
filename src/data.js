@@ -12,21 +12,21 @@ const poster = (name) =>
 export const profile = {
   name: 'Simon Parmé',
   email: 'parmesimon@gmail.com',
-  phone: '+33 6 88 75 74 15',
   github: 'https://github.com/ParmeSimon',
   linkedin: 'https://www.linkedin.com/in/simon-parmé',
+  cv: `${import.meta.env.BASE_URL}cv.pdf`,
   location: { fr: 'Le Mans, France', en: 'Le Mans, France' },
   title: {
     fr: 'Développeur Web Fullstack',
     en: 'Fullstack Web Developer',
   },
   tagline: {
-    fr: 'Apprenti développeur chez Renault Group — en recherche d’un Master développeur web.',
-    en: 'Apprentice developer at Renault Group — looking for a Master’s in web development.',
+    fr: 'Alternant développeur chez Renault Group — Expert en Architecture et Développement Logiciel (Bac+5) à EKOD.',
+    en: 'Apprentice developer at Renault Group — pursuing an Expert in Software Architecture & Development degree (Master’s level) at EKOD.',
   },
   about: {
-    fr: 'Développeur web en alternance chez Renault Group depuis 2023, je conçois des applications web industrielles de bout en bout : architecture, frontend React, backend Symfony, tests et mise en production. À côté, je construis des apps mobiles Flutter et des projets perso pour explorer de nouvelles stacks. Permis B, anglais B2+, et un faible pour les trails de 11,2 km.',
-    en: 'Web developer apprentice at Renault Group since 2023, I build industrial web applications end to end: architecture, React frontend, Symfony backend, testing and production deployment. On the side, I build Flutter mobile apps and personal projects to explore new stacks. Driving licence, B2+ English, and a soft spot for 11.2 km trail runs.',
+    fr: 'Développeur web en alternance chez Renault Group depuis 2023, je conçois des applications web industrielles de bout en bout : architecture, frontend React, backend Symfony, tests et mise en production. Je poursuis chez Renault en alternance jusqu’en 2028, dans le cadre de la formation Expert en Architecture et Développement Logiciel (Bac+5) à EKOD. À côté, je construis des apps mobiles Flutter et des projets perso pour explorer de nouvelles stacks. Permis B, anglais B2+, et un faible pour les trails de 11,2 km.',
+    en: 'Web developer apprentice at Renault Group since 2023, I build industrial web applications end to end: architecture, React frontend, Symfony backend, testing and production deployment. I’m continuing at Renault on a work-study contract through 2028, as part of the Expert in Software Architecture & Development programme (Master’s level) at EKOD. On the side, I build Flutter mobile apps and personal projects to explore new stacks. Driving licence, B2+ English, and a soft spot for 11.2 km trail runs.',
   },
 }
 
@@ -102,6 +102,25 @@ export const experiences = [
     company: 'Renault Group',
     logo: renaultLogo,
     place: 'Le Mans',
+    period: { fr: 'Sept. 2026 — Sept. 2028', en: 'Sept. 2026 — Sept. 2028' },
+    points: {
+      fr: [
+        'Poursuite en alternance dans le cadre du Bac+5 Expert en Architecture et Développement Logiciel (EKOD)',
+        'Architecture logicielle, DevOps et cloud sur les applications web industrielles',
+        'Coordination technique et accompagnement de l’équipe de développement',
+      ],
+      en: [
+        'Continuing on a work-study contract as part of the Expert in Software Architecture & Development degree (EKOD)',
+        'Software architecture, DevOps and cloud on industrial web applications',
+        'Technical coordination and support of the development team',
+      ],
+    },
+  },
+  {
+    role: { fr: 'Concepteur et Développeur d’Applications', en: 'Application Designer & Developer' },
+    company: 'Renault Group',
+    logo: renaultLogo,
+    place: 'Le Mans',
     period: { fr: 'Sept. 2025 — Sept. 2026', en: 'Sept. 2025 — Sept. 2026' },
     points: {
       fr: [
@@ -167,6 +186,16 @@ export const education = [
     school: 'EKOD',
     logo: ekodLogo,
     degree: {
+      fr: 'Expert en Architecture et Développement Logiciel — Bac+5 (RNCP niv. 7)',
+      en: 'Expert in Software Architecture & Development — Master’s level (EQF 7)',
+    },
+    place: 'Le Mans',
+    period: '2026 — 2028',
+  },
+  {
+    school: 'EKOD',
+    logo: ekodLogo,
+    degree: {
       fr: 'Concepteur et Développeur d’Applications',
       en: 'Application Designer & Developer',
     },
@@ -222,11 +251,10 @@ export const skills = {
   langs: [
     { name: { fr: 'Français', en: 'French' }, level: { fr: 'Natif', en: 'Native' } },
     { name: { fr: 'Anglais', en: 'English' }, level: 'B2+' },
-    { name: { fr: 'Coréen', en: 'Korean' }, level: { fr: 'En apprentissage', en: 'Learning' } },
   ],
 }
 
 export const interests = {
-  fr: ['Trail — 11,2 km', 'Tennis de table', 'Football', 'Cyclisme', 'Coréen'],
-  en: ['Trail running — 11.2 km', 'Table tennis', 'Football', 'Cycling', 'Korean'],
+  fr: ['Trail — 11,2 km', 'Tennis de table', 'Football', 'Cyclisme'],
+  en: ['Trail running — 11.2 km', 'Table tennis', 'Football', 'Cycling'],
 }

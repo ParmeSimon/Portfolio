@@ -57,6 +57,9 @@ export default function Hero() {
           <a className="btn btn-ghost" href={`mailto:${profile.email}`}>
             {t({ fr: 'Me contacter', en: 'Get in touch' })}
           </a>
+          <a className="btn btn-ghost" href={profile.cv} target="_blank" rel="noreferrer">
+            {t({ fr: 'Mon CV ↗', en: 'My CV ↗' })}
+          </a>
         </motion.div>
       </div>
       <div className="hero-scroll">{t({ fr: '( scroll )', en: '( scroll )' })}</div>
