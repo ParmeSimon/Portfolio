@@ -40,8 +40,7 @@ export const projects = [
       fr: 'Le pot de départ, sans la prise de tête. Cagnottes collectives avec paiement Stripe Connect, hub public partageable, livre d’or et clôture PDF. Auth magic-link, Cloud Functions Node 20.',
       en: 'Farewell gift pools without the hassle. Group money pools with Stripe Connect payments, shareable public hub, guestbook and PDF closure report. Magic-link auth, Node 20 Cloud Functions.',
     },
-    link: 'https://github.com/jordanbmrd/tchao-app',
-    private: true,
+    link: 'https://tchao-dev.web.app/sign-in',
   },
   {
     name: 'WorkingTime',
@@ -52,7 +51,18 @@ export const projects = [
       fr: 'Suivi du temps de travail iOS & Android. Multi-rôles (admin / employeur), synchronisation Firestore, mode hors-ligne, multilingue et interface responsive.',
       en: 'iOS & Android working-time tracker. Multi-role (admin / employer), Firestore sync, offline mode, multilingual and responsive interface.',
     },
-    link: 'https://github.com/ParmeSimon/WorkingTime',
+    link: 'https://workingtime.pro',
+  },
+  {
+    name: 'PitAssistant',
+    year: '2026',
+    type: { fr: 'App mobile & web', en: 'Mobile & web app' },
+    stack: ['Flutter', 'Firebase', 'Firestore', 'Cloud Functions'],
+    desc: {
+      fr: 'Assistant de gestion de stand : suivi des opérations, coordination d’équipe et tableau de bord temps réel.',
+      en: 'Pit management assistant: operations tracking, team coordination and real-time dashboard.',
+    },
+    link: 'https://pitassistant.eu',
   },
   {
     name: 'BeConnect',
